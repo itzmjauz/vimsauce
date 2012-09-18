@@ -1,0 +1,4 @@
+#!/bin/bash
+ln -svf $pluginpath/vimrc .vimrc
+rm -rvf .vim
+ln -sv $pluginpath .vim
