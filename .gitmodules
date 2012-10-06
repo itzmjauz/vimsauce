@@ -10,3 +10,9 @@
 [submodule "bundle/jshint"]
 	path = bundle/jshint
 	url = git://github.com/wookiehangover/jshint.vim.git
+[submodule "bundle/webapi-vim"]
+	path = bundle/webapi-vim
+	url = github.com:mattn/webapi-vim.git
+[submodule "bundle/mustache"]
+	path = bundle/mustache
+	url = git://github.com/juvenn/mustache.vim.git
