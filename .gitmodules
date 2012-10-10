@@ -9,7 +9,7 @@
 	url = git://github.com/tpope/vim-pathogen.git
 [submodule "bundle/jshint"]
 	path = bundle/jshint
-	url = git://github.com/wookiehangover/jshint.vim.git
+	url = git://github.com/nathan7/jshint.vim.git
 [submodule "bundle/webapi"]
 	path = bundle/webapi
 	url = github.com:mattn/webapi-vim.git
