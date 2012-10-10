@@ -12,7 +12,7 @@ let g:Powerline_symbols = 'fancy'
 set laststatus=2
 
 filetype plugin on
-runtime bundle/vim-pathogen/autoload/pathogen.vim
+runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 call pathogen#infect()
