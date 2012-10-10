@@ -7,6 +7,7 @@ set expandtab
 syntax on
 au BufNewFile,BufRead *.escad,*.scad setf c
 au BufNewFile,BufRead *.pde,*.ino setf cpp
+autocmd BufReadPost * :GuessIndent
 
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
