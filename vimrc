@@ -9,7 +9,6 @@ au BufNewFile,BufRead *.escad,*.scad setf c
 au BufNewFile,BufRead *.pde,*.ino setf cpp
 
 filetype plugin on
-
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
