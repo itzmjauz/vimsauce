@@ -19,3 +19,14 @@ runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 call pathogen#infect()
+
+function! Gadd()
+    w
+    !git add %
+endfunction
+command! Gadd call Gadd()
+
+function! Gpush()
+    !git push
+endfunction
+command! Gpush call Gpush()
