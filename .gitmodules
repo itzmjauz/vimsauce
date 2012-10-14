@@ -22,3 +22,6 @@
 [submodule "bundle/guessindent"]
 	path = bundle/guessindent
 	url = git://github.com/vim-scripts/GuessIndent.git
+[submodule "bundle/jsbeautify"]
+	path = bundle/jsbeautify
+	url = git://github.com/maksimr/vim-jsbeautify.git

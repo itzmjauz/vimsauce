@@ -9,6 +9,14 @@ au BufNewFile,BufRead *.escad,*.scad setf c
 au BufNewFile,BufRead *.pde,*.ino setf cpp
 autocmd BufReadPost * :GuessIndent
 
+"for js
+let g:jsbeautify = {'indent_size': 4, 'indent_char': ' ', 'max_char': 78, 'brace_style': 'expand-strict'}
+autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
+"for html
+autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
+"for css or scss
+autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
+
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
 
