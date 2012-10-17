@@ -20,8 +20,21 @@ autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
 
+let b:jshint_disabled = 1
+
 filetype plugin on
 runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 call pathogen#infect()
+
+function! Gadd()
+    w
+    !git add %
+endfunction
+command! Gadd call Gadd()
+
+function! Gpush()
+    !git push
+endfunction
+command! Gpush call Gpush()
