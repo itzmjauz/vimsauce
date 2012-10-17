@@ -10,7 +10,7 @@ au BufNewFile,BufRead *.pde,*.ino setf cpp
 autocmd BufReadPost * :GuessIndent
 
 "for js
-let g:jsbeautify = {'indent_size': 4, 'indent_char': ' ', 'max_char': 78, 'brace_style': 'expand-strict'}
+let g:jsbeautify = {'indent_size': 4, 'indent_char': ' ', 'max_char': 78, 'brace_style': 'expand-end'}
 autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 "for html
 autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
