@@ -10,7 +10,7 @@ au BufNewFile,BufRead *.pde,*.ino setf cpp
 autocmd BufReadPost * :GuessIndent
 
 "for js
-let g:jsbeautify = {'indent_size': 4, 'indent_char': ' ', 'max_char': 78, 'brace_style': 'expand-end'}
+let g:jsbeautify = {'indent_size': 4, 'indent_char': ' ', 'max_char': 78, 'brace_style': 'end-expand'}
 autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 "for html
 autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
@@ -21,6 +21,8 @@ let g:Powerline_symbols = 'fancy'
 set laststatus=2
 
 let b:jshint_disabled = 1
+
+let g:gist_detect_filetype = 1
 
 filetype plugin on
 runtime bundle/pathogen/autoload/pathogen.vim
@@ -38,3 +40,8 @@ function! Gpush()
     !git push
 endfunction
 command! Gpush call Gpush()
+
+function! Sprunge()
+    w !curl -F 'sprunge=<-' sprunge.us
+endfunction
+command! Sprunge call Sprunge()
