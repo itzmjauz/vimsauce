@@ -20,8 +20,6 @@ autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
 
-let b:jshint_disabled = 1
-
 let g:gist_detect_filetype = 1
 
 filetype plugin on
