@@ -28,6 +28,9 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 call pathogen#infect()
 
+set background=dark
+colorscheme solarized
+
 function! Gadd()
     w
     !git add %
