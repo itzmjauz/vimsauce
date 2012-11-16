@@ -9,7 +9,7 @@
 	url = git://github.com/tpope/vim-pathogen.git
 [submodule "bundle/webapi"]
 	path = bundle/webapi
-	url = github.com:mattn/webapi-vim.git
+	url = git://github.com/mattn/webapi-vim.git
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
