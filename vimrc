@@ -5,7 +5,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 syntax on
-au BufNewFile,BufRead *.escad,*.scad setf c
+au BufNewFile,BufRead *.escad,*.scad setf javascript
 au BufNewFile,BufRead *.pde,*.ino setf cpp
 autocmd BufReadPost * :GuessIndent
 
