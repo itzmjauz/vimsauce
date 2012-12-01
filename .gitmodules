@@ -49,3 +49,6 @@
 [submodule "bundle/session"]
 	path = bundle/session
 	url = https://github.com/orderthruchaos/vim-session.git
+[submodule "bundle/css-color"]
+	path = bundle/css-color
+	url = https://github.com/ap/vim-css-color.git
