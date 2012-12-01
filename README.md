@@ -8,6 +8,7 @@ installation:
     ln -svf .vim/vimrc ~/.vimrc
     cd ~/.vim
     git submodule init && git submodule update --recursive
+    git submodule foreach git submodule init && git submodule foreach git submodule update --recursive
 
 
 updating:
