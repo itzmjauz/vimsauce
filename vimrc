@@ -1,3 +1,5 @@
+set nocompatible
+
 hi clear SpellBad
 hi SpellBad cterm=bold ctermbg=darkred ctermfg=white
 
