@@ -25,6 +25,8 @@ let g:gist_detect_filetype = 1
 
 let g:SuperTabDefaultCompletionType = "context"
 
+let g:session_autosave = 'yes'
+
 filetype plugin on
 runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles()

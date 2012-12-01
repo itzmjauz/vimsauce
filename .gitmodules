@@ -46,3 +46,6 @@
 [submodule "bundle/closetag"]
 	path = bundle/closetag
 	url = https://github.com/docunext/closetag.vim.git
+[submodule "bundle/session"]
+	path = bundle/session
+	url = https://github.com/orderthruchaos/vim-session.git
