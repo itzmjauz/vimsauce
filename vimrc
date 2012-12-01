@@ -23,6 +23,8 @@ set laststatus=2
 
 let g:gist_detect_filetype = 1
 
+let g:SuperTabDefaultCompletionType = "context"
+
 filetype plugin on
 runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles()
