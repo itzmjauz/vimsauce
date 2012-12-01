@@ -14,6 +14,7 @@ let g:jsbeautify = {'indent_size': 4, 'indent_char': ' ', 'max_char': 78, 'brace
 autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 "for html
 autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
+autocmd FileType html let b:closetag_html_style=1
 "for css or scss
 autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
 
